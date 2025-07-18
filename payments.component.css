@@ -1,0 +1,120 @@
+/* Page Background */
+body {
+  
+    background-color: #fce4ec; 
+    /* soft pink tint  */
+  
+      /* background: linear-gradient(to bottom, #fff3e0, #f3e5f5, #212121); */
+    
+    
+  
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+  
+  
+}
+
+.card-body {
+  padding: 40px;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+h5.text-secondary {
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* Form Inputs */
+input.form-control,
+select.form-control {
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+input.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/* Validation */
+input.ng-invalid.ng-touched {
+  border-color: #dc3545;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button.btn-success {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Product Summary */
+.list-group-item {
+  border: none;
+  padding: 15px 20px;
+}
+
+.list-group-item img {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.fw-bold {
+  font-weight: 600;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button.btn-success {
+    font-size: 1rem;
+  }
+}

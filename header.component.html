@@ -1,0 +1,28 @@
+<header class="header">
+<div class="logo" style="cursor: pointer;" (click)="goToHome()">ShopBold</div>
+  <nav>
+    <a (click)="gotofurniture()" routerLink="/furniture" class="nav-link">Furniture</a>
+<a (click)="goToElectronics()" routerLink="/electronics" class="nav-link">Electronics</a>
+</nav>
+  
+  <div class="search-bar">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  </div>
+
+  <form class="form-inline" id="form1">
+    <button id="submit" type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+  </form>
+
+    <form class="form-inline" id="form1">
+<button (click)="goToCart()" class="btn btn-default">
+  <i class="fa-solid fa-cart-shopping"></i>
+</button>
+  </form>
+
+
+  <nav>
+       <button (click)="goToSignup()">Sign Up</button>
+
+  </nav>
+
+</header>

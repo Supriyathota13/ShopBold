@@ -1,0 +1,92 @@
+.signin-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+ 
+.left-panel {
+  flex: 1;
+  background-color: #cd0c0c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+ 
+.logo {
+  width: 300px;
+  margin-bottom: 80px;
+}
+ 
+.right-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  position:relative;
+}
+ 
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+ 
+form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+ 
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color:#cd0c0c;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+ 
+ 
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+ 
+.terms {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+}
+ 
+.error {
+  color: red;
+  font-size: 12px;
+}
+ 
+#new {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+  font-weight:bold;
+}

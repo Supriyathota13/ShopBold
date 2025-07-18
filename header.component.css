@@ -1,0 +1,62 @@
+
+/* Header layout */
+.header {
+  background-color: #ea420e;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+nav {
+  display: flex;
+  gap: 1rem; /* space between links */
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+
+.search-bar {
+  flex: 1;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+
+/* Login button */
+nav button {
+  background-color: white;
+  color: #ea420e;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover{
+  cursor: pointer;
+}
